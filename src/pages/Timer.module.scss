@@ -15,7 +15,6 @@
   align-items: center;
   justify-content: center;
 
-  // frosted backdrop to ground the timer in the scene
   &::before {
     content: '';
     position: absolute;
@@ -55,7 +54,6 @@
   margin-top: 0.5rem;
 }
 
-// ── Preset buttons — warm frosted glass ───────────────────────────────────────
 .presetButtons {
   display: flex;
   gap: 0.75rem;
@@ -90,7 +88,6 @@
   }
 }
 
-// ── Custom duration — warm frosted ────────────────────────────────────────────
 .customDuration {
   display: flex;
   align-items: center;
@@ -142,7 +139,6 @@
   letter-spacing: 0.03em;
 }
 
-// ── Control buttons ───────────────────────────────────────────────────────────
 .controls {
   display: flex;
   gap: 0.75rem;
@@ -150,7 +146,7 @@
 
 .controlButton {
   padding: 0.75rem 2rem;
-  border-radius: 2rem; // pill shape to match presets
+  border-radius: 2rem; 
   font-size: 0.875rem;
   font-weight: 600;
   text-transform: lowercase;
